@@ -1,2 +1,2 @@
-let a = "M.ali";
+let a = "ali";
 console.log(a);

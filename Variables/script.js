@@ -8,3 +8,5 @@ console.log(b);
 const pay = 2100;
 console.log(pay);
 
+
+

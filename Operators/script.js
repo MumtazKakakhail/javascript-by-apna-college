@@ -44,8 +44,8 @@ console.log(5 == '5'); //true
 console.log(5 === '5'); //false
 
 // not equal to !=
-console.log(5 != 5); //true
-console.log(5 != 4); //false 
+console.log(5 != 5); //false
+console.log(5 != 4); //true 
 
 
 

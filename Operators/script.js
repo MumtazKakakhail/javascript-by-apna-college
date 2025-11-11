@@ -36,10 +36,16 @@ console.log(age < 23);
 console.log(age <= 22);
 
 
+// equal to  == not strickly check
+console.log(5 == 5);
+console.log(5 == '5'); //true
 
+// === strickly check
+console.log(5 === '5'); //false
 
-
-l
+// not equal to !=
+console.log(5 != 5); //true
+console.log(5 != 4); //false 
 
 
 

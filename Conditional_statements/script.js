@@ -97,3 +97,20 @@ if (size === "XL") {
 }else if (size === "S") {
     console.log("price is", 100, "Rupees");
 }
+
+
+//Nested if-else
+    let Marks = 45;
+if (Marks >= 33) {
+    console.log("pass");
+    if (Marks >= 80) {
+        console.log("A+");
+        
+    }else {
+        console.log("A");
+        
+    }
+}else {
+    console.log("Better Luck Next Time!");
+    
+}

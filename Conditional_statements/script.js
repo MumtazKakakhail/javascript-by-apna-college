@@ -114,3 +114,4 @@ if (Marks >= 33) {
     console.log("Better Luck Next Time!");
 
 }
+

@@ -140,3 +140,7 @@ console.log(r > m || r < n ); //true || false
 console.log(m < n || r > n ); //false || true
 console.log(n > r || r < m ); //false || false
 
+// ! logical Not
+console.log(!true);
+console.log(!false);
+

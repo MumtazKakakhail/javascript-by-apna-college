@@ -128,10 +128,15 @@ if (Marks >= 33) {
 let m = 45;
 let n = 33;
 let r = 65;
-console.log(m > n && n < r );
-console.log(r > m && r < n );
-console.log(m < n && r > n );
-console.log(n > r && r < m );
+console.log(m > n && n < r ); //true && true
+console.log(r > m && r < n ); //true && false
+console.log(m < n && r > n ); //false && true
+console.log(n > r && r < m ); //false && false
 
 
+// || Logical OR
+console.log(m > n || n < r ); //true || true
+console.log(r > m || r < n ); //true || false
+console.log(m < n || r > n ); //false || true
+console.log(n > r || r < m ); //false || false
 

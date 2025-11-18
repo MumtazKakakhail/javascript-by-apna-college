@@ -123,3 +123,15 @@ if (Marks >= 33) {
 // true && false equal to false
 // false && true equal to false
 // false && false equal to false
+
+
+let m = 45;
+let n = 33;
+let r = 65;
+console.log(m > n && n < r );
+console.log(r > m && r < n );
+console.log(m < n && r > n );
+console.log(n > r && r < m );
+
+
+

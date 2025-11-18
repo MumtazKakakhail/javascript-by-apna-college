@@ -114,3 +114,12 @@ if (Marks >= 33) {
     console.log("Better Luck Next Time!");
 
 }
+
+
+//Logical Operators
+// && logical AND
+
+// true && true equal to true
+// true && false equal to false
+// false && true equal to false
+// false && false equal to false

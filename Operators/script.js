@@ -49,8 +49,26 @@ console.log(5 != 4); //true
 
 
 
-let marks = 93;
-if (marks >= 50 && marks >= 80) {
+let markss = 93;
+if (markss >= 50 && markss >= 80) {
     console.log("pass");
     console.log("A+")
 }
+let marks = 52;
+if (marks >= 50 || marks >= 80) {
+    console.log("pass");
+    console.log("A+")
+}
+let Marks = 52;
+if (!(Marks < 33)) {
+    console.log("pass");
+    console.log("A+")
+}
+
+let Markss = 75;
+if ((Markss > 33 && Marks <= 80) || !false) {   // here it chack from left to right
+    console.log("pass");
+    
+}
+
+//!false or !true -> we avoid the values

@@ -49,3 +49,8 @@ console.log(5 != 4); //true
 
 
 
+let marks = 84;
+if (marks >= 50 && marks >= 80) {
+    console.log("pass");
+    console.log("A+")
+}

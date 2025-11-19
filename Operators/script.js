@@ -72,3 +72,8 @@ if ((Markss > 33 && Marks <= 80) || !false) {   // here it chack from left to ri
 }
 
 //!false or !true -> we avoid the values
+
+
+//Practice Q
+//Q- A "Good String" is a string that starts with letter 'a' and has a length > 3. 
+//write a program to find if a string is good or not

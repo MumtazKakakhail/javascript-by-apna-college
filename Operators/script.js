@@ -77,3 +77,26 @@ if ((Markss > 33 && Marks <= 80) || !false) {   // here it chack from left to ri
 //Practice Q
 //Q- A "Good String" is a string that starts with letter 'a' and has a length > 3. 
 //write a program to find if a string is good or not
+
+let str = "apple";
+if ((str[0] === 'a') && str.length > 3) {
+    console.log("Good String");
+    
+}else {
+    console.log("Not a good string");
+    
+}
+
+
+//Q-2
+let num = 12;
+if ((num % 3 === 0) && ((num + 1 == 15) || (num - 1 == 11))) {
+    console.log("Safe");
+    
+}else {
+    console.log("UnSafe");
+    
+}
+
+
+

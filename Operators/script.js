@@ -86,3 +86,5 @@ if (num % 3 === 0 && (num + 1 == 15 || num - 1 == 11)) {
 } else {
   console.log("UnSafe");
 }
+
+

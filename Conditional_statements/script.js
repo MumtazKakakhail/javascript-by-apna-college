@@ -128,17 +128,17 @@ if (Marks >= 33) {
 let m = 45;
 let n = 33;
 let r = 65;
-console.log(m > n && n < r ); //true && true
-console.log(r > m && r < n ); //true && false
-console.log(m < n && r > n ); //false && true
-console.log(n > r && r < m ); //false && false
+console.log(m > n && n < r); //true && true
+console.log(r > m && r < n); //true && false
+console.log(m < n && r > n); //false && true
+console.log(n > r && r < m); //false && false
 
 
 // || Logical OR
-console.log(m > n || n < r ); //true || true
-console.log(r > m || r < n ); //true || false
-console.log(m < n || r > n ); //false || true
-console.log(n > r || r < m ); //false || false
+console.log(m > n || n < r); //true || true
+console.log(r > m || r < n); //true || false
+console.log(m < n || r > n); //false || true
+console.log(n > r || r < m); //false || false
 
 // ! logical Not
 console.log(!true);
@@ -148,17 +148,17 @@ console.log(!false);
 let colour = "red";
 switch (colour) {
     case "red":
-      console.log("stop");
-        
-        break;
-case "yellow":
-console.log("Slow Down");
+        console.log("stop");
 
-break;
-case "green":
-    console.log("Go");
-    
-    break;
+        break;
+    case "yellow":
+        console.log("Slow Down");
+
+        break;
+    case "green":
+        console.log("Go");
+
+        break;
     default:
         console.log("Light is broken");
 }

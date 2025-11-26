@@ -191,3 +191,15 @@ switch (day) {
         console.log("Please Enter Number between 1 to 7");
 
 }
+
+//alert and prompt
+// alert("this is an alert");
+
+
+// console.error("this is an error");
+
+// console.warn("this is warning msg");
+
+let firstNam = prompt("Enter your name:")
+console.log(firstNam);
+

@@ -190,10 +190,4 @@ switch (day) {
     default:
         console.log("Please Enter Number between 1 to 7");
 
-
-
-
-
-
-
 }

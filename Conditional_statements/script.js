@@ -164,27 +164,27 @@ switch (colour) {
 }
 
 //use switch ststement to print the day of week using a number variable 'day' with value '1 to 7'
-let day = 1;
+let day = 5;
 switch (day) {
-    case "1":
+    case 1:
         console.log("monday")
         break;
-    case "2":
+    case 2:
         console.log("tuesday");
         break;
-    case "3":
+    case 3:
         console.log("wednesday");
         break;
-    case "4":
+    case 4:
         console.log("thrusday");
         break;
-    case "5":
+    case 5:
         console.log("friday");
         break;
-    case "6":
+    case 6:
         console.log("saturday");
         break;
-    case "7":
+    case 7:
         console.log("sunday");
         break;
     default:

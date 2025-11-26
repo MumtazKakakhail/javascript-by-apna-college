@@ -144,3 +144,21 @@ console.log(n > r || r < m ); //false || false
 console.log(!true);
 console.log(!false);
 
+//Switch Statement
+let colour = "red";
+switch (colour) {
+    case "red":
+      console.log("stop");
+        
+        break;
+case "yellow":
+console.log("Slow Down");
+
+break;
+case "green":
+    console.log("Go");
+    
+    break;
+    default:
+        console.log("Light is broken");
+}

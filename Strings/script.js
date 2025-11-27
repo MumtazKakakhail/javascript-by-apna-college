@@ -34,4 +34,16 @@ console.log(str.indexOf("Coading"));
 
 //method chaining
 
+// let msg = "    hello!   ";
+// console.log(msg);
+// let newMsg = msg.trim();
+// console.log("after trim:", newMsg);
+// newMsg = newMsg.toUpperCase();
+// console.log("after upperCase:", newMsg);
+
+let msg = "    hello!   ";
+let newMsg = msg.trim().toUpperCase();
+console.log(newMsg);
+
+
 

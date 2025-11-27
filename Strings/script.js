@@ -19,3 +19,19 @@ console.log(names.toUpperCase());
 
 let lastNam = "WALI";
 console.log(lastNam.toLowerCase());
+
+
+//indexof
+
+let str = "ILoveCoading";
+// str.indexOf("I");
+console.log(str.indexOf("I"));
+console.log(str.indexOf("Love"));
+console.log(str.indexOf("k"));
+console.log(str.indexOf("o"));
+console.log(str.indexOf("Coading"));
+
+
+//method chaining
+
+

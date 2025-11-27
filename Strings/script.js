@@ -11,7 +11,7 @@ console.log(newPass);
 //whenever we do try to make a change , a new string is created and old one remains same.
 
 
-//tiuppercase and to uppercase
+//toUpperCase and toLowerCase
 
 let names = "mumtaz";
 console.log(names.toUpperCase());

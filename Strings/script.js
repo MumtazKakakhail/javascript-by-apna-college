@@ -49,3 +49,19 @@ console.log(newMsg);
 //slice()
 let nam = 'MumtazWali';
 console.log(nam.slice(0,6));
+
+let pet = 'cat';
+console.log(pet.slice(2));
+console.log(pet.slice(-2));
+
+
+//replace
+let message = 'IdoCoading';
+console.log(message.replace("do","Love"));
+console.log(message.replace("I","M"));
+
+
+//repeat
+let fruit = 'mango';
+console.log(fruit.repeat(3));
+

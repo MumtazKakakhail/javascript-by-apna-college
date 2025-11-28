@@ -70,3 +70,7 @@ console.log(fruit.repeat(3));
 //Q- let std = "KamranAlii" , here seprate "Alii", and replace 'i' with 'y'.
 let std = "KamranAlii";
 console.log(std.slice(6).replace("i","y"));
+//or
+console.log(std.slice(6).replace("i","y").replace("i","y"));
+//or
+console.log(std.slice(6).replace("i","y").replace("i",""));

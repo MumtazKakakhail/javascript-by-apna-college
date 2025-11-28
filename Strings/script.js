@@ -65,3 +65,8 @@ console.log(message.replace("I","M"));
 let fruit = 'mango';
 console.log(fruit.repeat(3));
 
+
+//practice
+//Q- let std = "KamranAlii" , here seprate "Alii", and replace 'i' with 'y'.
+let std = "KamranAlii";
+console.log(std.slice(6).replace("i","y"));

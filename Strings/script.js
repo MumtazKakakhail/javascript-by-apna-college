@@ -46,4 +46,6 @@ let newMsg = msg.trim().toUpperCase();
 console.log(newMsg);
 
 
-
+//slice()
+let nam = 'MumtazWali';
+console.log(nam.slice(0,6));

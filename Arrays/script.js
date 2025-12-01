@@ -16,3 +16,5 @@ console.log(students.length);
 console.log(students.push("saleem"));
 //2- pop
 console.log(students.pop());
+//3- unshift
+console.log(students.unshift("shahab"));

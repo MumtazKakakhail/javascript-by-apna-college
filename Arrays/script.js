@@ -78,3 +78,9 @@ console.log(newNum);
 
 let newNumss = numbers.splice(0, 0, 'zero', 'nine');
 console.log(numbers);
+ 
+let num = numbers.splice(3,0, 'ten');
+console.log(numbers);
+  
+let nums = numbers.splice(4,4, 'fifty');
+console.log(numbers);

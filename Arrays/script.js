@@ -67,3 +67,14 @@ let newstd = stds.slice(3);
 console.log(newstd);
 
 console.log(newstd.slice(-1));
+
+
+//10- splice
+let numbers = ['one','two','three','four','five'];
+console.log(numbers);
+
+let newNum = numbers.splice(0, 3, 'eight' );
+console.log(newNum);
+
+let newNumss = numbers.splice(0, 0, 'zero', 'nine');
+console.log(numbers);

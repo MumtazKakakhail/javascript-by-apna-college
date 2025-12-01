@@ -18,3 +18,6 @@ console.log(students.push("saleem"));
 console.log(students.pop());
 //3- unshift
 console.log(students.unshift("shahab"));
+//4- shift
+console.log(students.shift());
+

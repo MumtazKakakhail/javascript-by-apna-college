@@ -46,4 +46,24 @@ console.log(months.indexOf("July"));
 console.log(months.includes("june"));
 console.log(months.includes("december"));
 
+//7- concat
+let primaryColors = ["red", "yellow", "blue"];
+let secondaryColors= ["orange", "green", "violet"]
+let allColors= primaryColors.concat(secondaryColors);
+console.log(allColors);
 
+
+//8- reverse
+let colors = ['red', 'blue', 'yellow'];
+console.log(colors);
+let colours = colors.reverse();
+console.log(colours);
+
+//9- slice
+let stds = ['ali','zain','shams','amir','yasir'];
+let newStds = stds.slice(3,4);
+console.log(newStds);
+let newstd = stds.slice(3);
+console.log(newstd);
+
+console.log(newstd.slice(-1));

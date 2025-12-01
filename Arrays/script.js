@@ -38,4 +38,12 @@ console.log(months.unshift("june"));
 console.log(months.unshift("july"));
 
 
+//5- indexof
+console.log(months.indexOf("july"));
+console.log(months.indexOf("July"));
+
+//6- includes
+console.log(months.includes("june"));
+console.log(months.includes("december"));
+
 

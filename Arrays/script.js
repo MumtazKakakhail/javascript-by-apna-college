@@ -84,3 +84,12 @@ console.log(numbers);
   
 let nums = numbers.splice(4,4, 'fifty');
 console.log(numbers);
+
+
+//11- sort
+let marks = [23,53,65,11,44,53,60,33,22,57];
+console.log(marks.sort());
+
+
+let chars = ['q','a','d','k','m','c','w','z'];
+console.log(chars.sort());

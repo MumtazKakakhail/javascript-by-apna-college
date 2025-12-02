@@ -103,3 +103,15 @@ console.log(chars.sort());
 let month = ["january", "july", "march", "august"];
 let newMon = month.splice(0,2,'july','june');
 console.log(month);
+
+
+//Q- return the index of "javascript" from the given array , if it was reversed.
+// ['c','c++','html','javascript,'python','java','c#','sql']
+let lang = ['c','c++','html','javascript','python','java','c#','sql'];
+let revLang = lang.reverse().indexOf('javascript');
+console.log(revLang);
+
+
+//nested array
+let numss = [[2,4],[3,6],[5,10]];
+console.log(numss);

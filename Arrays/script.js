@@ -93,3 +93,13 @@ console.log(marks.sort());
 
 let chars = ['q','a','d','k','m','c','w','z'];
 console.log(chars.sort());
+
+
+//practice-Q
+//Q- for the given start state of the array,change it to final form using splice
+// start = ["january", "july", "march", "august"]
+// final = [ "july", "june" "march", "august"]
+
+let month = ["january", "july", "march", "august"];
+let newMon = month.splice(0,2,'july','june');
+console.log(month);

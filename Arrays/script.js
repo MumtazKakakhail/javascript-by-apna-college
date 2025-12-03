@@ -115,3 +115,5 @@ console.log(revLang);
 //nested array
 let numss = [[2, 4], [3, 6], [5, 10]];
 console.log(numss);
+
+

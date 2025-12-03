@@ -48,8 +48,8 @@ console.log(months.includes("december"));
 
 //7- concat
 let primaryColors = ["red", "yellow", "blue"];
-let secondaryColors= ["orange", "green", "violet"]
-let allColors= primaryColors.concat(secondaryColors);
+let secondaryColors = ["orange", "green", "violet"]
+let allColors = primaryColors.concat(secondaryColors);
 console.log(allColors);
 
 
@@ -60,8 +60,8 @@ let colours = colors.reverse();
 console.log(colours);
 
 //9- slice
-let stds = ['ali','zain','shams','amir','yasir'];
-let newStds = stds.slice(3,4);
+let stds = ['ali', 'zain', 'shams', 'amir', 'yasir'];
+let newStds = stds.slice(3, 4);
 console.log(newStds);
 let newstd = stds.slice(3);
 console.log(newstd);
@@ -70,28 +70,28 @@ console.log(newstd.slice(-1));
 
 
 //10- splice
-let numbers = ['one','two','three','four','five'];
+let numbers = ['one', 'two', 'three', 'four', 'five'];
 console.log(numbers);
 
-let newNum = numbers.splice(0, 3, 'eight' );
+let newNum = numbers.splice(0, 3, 'eight');
 console.log(newNum);
 
 let newNumss = numbers.splice(0, 0, 'zero', 'nine');
 console.log(numbers);
- 
-let num = numbers.splice(3,0, 'ten');
+
+let num = numbers.splice(3, 0, 'ten');
 console.log(numbers);
-  
-let nums = numbers.splice(4,4, 'fifty');
+
+let nums = numbers.splice(4, 4, 'fifty');
 console.log(numbers);
 
 
 //11- sort
-let marks = [23,53,65,11,44,53,60,33,22,57];
+let marks = [23, 53, 65, 11, 44, 53, 60, 33, 22, 57];
 console.log(marks.sort());
 
 
-let chars = ['q','a','d','k','m','c','w','z'];
+let chars = ['q', 'a', 'd', 'k', 'm', 'c', 'w', 'z'];
 console.log(chars.sort());
 
 
@@ -101,17 +101,17 @@ console.log(chars.sort());
 // final = [ "july", "june" "march", "august"]
 
 let month = ["january", "july", "march", "august"];
-let newMon = month.splice(0,2,'july','june');
+let newMon = month.splice(0, 2, 'july', 'june');
 console.log(month);
 
 
 //Q- return the index of "javascript" from the given array , if it was reversed.
 // ['c','c++','html','javascript,'python','java','c#','sql']
-let lang = ['c','c++','html','javascript','python','java','c#','sql'];
+let lang = ['c', 'c++', 'html', 'javascript', 'python', 'java', 'c#', 'sql'];
 let revLang = lang.reverse().indexOf('javascript');
 console.log(revLang);
 
 
 //nested array
-let numss = [[2,4],[3,6],[5,10]];
+let numss = [[2, 4], [3, 6], [5, 10]];
 console.log(numss);

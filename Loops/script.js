@@ -9,7 +9,7 @@ for (let i=5; i>=1; i--){
 
 }
 
-for(let i=10; i>=1; i-3){
-    console.log(i);
+for(let p=10; p>=1; p-3){
+    console.log(p);
     
 }

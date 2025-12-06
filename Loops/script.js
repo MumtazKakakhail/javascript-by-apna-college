@@ -13,3 +13,4 @@ for (let p = 10; p >= 1; p - 3) {
     console.log(p);
 
 }
+

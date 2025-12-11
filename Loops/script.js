@@ -76,3 +76,13 @@ if (guess == favMovie) {
     console.log("You quit");
     
 }
+
+//break
+let m=1;
+while(m<=5) {
+    if (m == 3) {
+        break;
+    }
+    console.log(m);
+    
+}

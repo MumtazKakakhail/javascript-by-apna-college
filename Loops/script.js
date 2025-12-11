@@ -56,3 +56,20 @@ for (let i = 1; i <= 3; i++) {
 }
 
 //while loop
+let i = 0;
+while (i <= 6) {
+    console.log(i);
+    i++
+
+}
+
+//guess game
+const favMovie = avatar;
+let guess = prompt("guess my favriote movie");
+while((guess != favMovie) && (guess != "quite")) {
+    prompt("wrong guess.Please try again");
+}
+if (guess == favMovie) {
+    console.log("congrats!");
+
+}

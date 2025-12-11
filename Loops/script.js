@@ -38,12 +38,12 @@ for (let i = 5; i <= 50; i = i + 5) {
 
 }
 
-let n = prompt("write your number");
-n = parseInt(n);
-for (let i = n; i <= n * 10; i = i + n) {
-    console.log(i);
+// let n = prompt("write your number");
+// n = parseInt(n);
+// for (let i = n; i <= n * 10; i = i + n) {
+//     console.log(i);
 
-}
+// }
 
 //nested loop
 for (let i = 1; i <= 3; i++) {
@@ -64,12 +64,15 @@ while (i <= 6) {
 }
 
 //guess game
-const favMovie = avatar;
+const favMovie = "avatar";
 let guess = prompt("guess my favriote movie");
-while((guess != favMovie) && (guess != "quite")) {
-    prompt("wrong guess.Please try again");
+while((guess != favMovie) && (guess != "quit")) {
+    guess = prompt("wrong guess.Please try again");
 }
 if (guess == favMovie) {
     console.log("congrats!");
 
+} else {
+    console.log("You quit");
+    
 }

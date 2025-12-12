@@ -66,7 +66,7 @@ while (i <= 6) {
 //guess game
 const favMovie = "avatar";
 let guess = prompt("guess my favriote movie");
-while((guess != favMovie) && (guess != "quit")) {
+while ((guess != favMovie) && (guess != "quit")) {
     guess = prompt("wrong guess.Please try again");
 }
 if (guess == favMovie) {
@@ -74,7 +74,7 @@ if (guess == favMovie) {
 
 } else {
     console.log("You quit");
-    
+
 }
 
 //break
@@ -84,41 +84,41 @@ if (guess == favMovie) {
 //         break;
 //     }
 //     console.log(m);
-    
+
 // }
 
 //Loops with arrays
-let fruits = ["apple","banana","orange","mango","graps"];
+let fruits = ["apple", "banana", "orange", "mango", "graps"];
 fruits.push("pineapple");
-for(let i=0; i<fruits.length; i++) {
+for (let i = 0; i < fruits.length; i++) {
     console.log(i, fruits[i]);
-    
+
 }
 
 //reverse
-for(let i=fruits.length-1; i>=0; i--) {
+for (let i = fruits.length - 1; i >= 0; i--) {
     console.log(i, fruits[i]);
-    
+
 }
 
 //Loops with nested arrays
-let heroes = [["ironman","spiderman","thor"],
-["superman","wonder women","flash"]];
-for(let i=0; i<heroes.length; i++) {
+let heroes = [["ironman", "spiderman", "thor"],
+["superman", "wonder women", "flash"]];
+for (let i = 0; i < heroes.length; i++) {
     console.log(i, heroes[i], heroes[i].length);
-    for(let j=0; j<heroes[i].length; j++) {
-console.log(`j=${j}, ${heroes[i][j]}`);
+    for (let j = 0; j < heroes[i].length; j++) {
+        console.log(`j=${j}, ${heroes[i][j]}`);
 
     }
 }
 
-let students = [["mumtaz", 92],["kamran",95],["shahab",93.5],["basharat",90]];
-for(let i=0; i<students.length; i++) {
+let students = [["mumtaz", 92], ["kamran", 95], ["shahab", 93.5], ["basharat", 90]];
+for (let i = 0; i < students.length; i++) {
     console.log(`info of student #${i}`);
-    
- for(let j=0; j<students[i].length; j++) {
-    console.log(students[i][j]);
-    
- }
+
+    for (let j = 0; j < students[i].length; j++) {
+        console.log(students[i][j]);
+
+    }
 
 }

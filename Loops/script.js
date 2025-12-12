@@ -100,3 +100,25 @@ for(let i=fruits.length-1; i>=0; i--) {
     console.log(i, fruits[i]);
     
 }
+
+//Loops with nested arrays
+let heroes = [["ironman","spiderman","thor"],
+["superman","wonder women","flash"]];
+for(let i=0; i<heroes.length; i++) {
+    console.log(i, heroes[i], heroes[i].length);
+    for(let j=0; j<heroes[i].length; j++) {
+console.log(`j=${j}, ${heroes[i][j]}`);
+
+    }
+}
+
+let students = [["mumtaz", 92],["kamran",95],["shahab",93.5],["basharat",90]];
+for(let i=0; i<students.length; i++) {
+    console.log(`info of student #${i}`);
+    
+ for(let j=0; j<students[i].length; j++) {
+    console.log(students[i][j]);
+    
+ }
+
+}

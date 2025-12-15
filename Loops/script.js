@@ -122,3 +122,26 @@ for (let i = 0; i < students.length; i++) {
     }
 
 }
+
+
+//for of loop
+let colors = ["red","orange","blue","maroon"];
+for(color of colors) {
+    console.log(color);
+    
+}
+
+for(char of "MumtazWali"){
+    console.log(char);
+    
+}
+
+//nested for of loop
+let members = [["ali","yasir","maham"],["javed","salah"]];
+for(list of members){
+    for(member of list){
+        console.log(member);
+        
+    }
+    
+}

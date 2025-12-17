@@ -88,4 +88,9 @@ math.abs(-3);
 math.pow(2, 4);
 math.floor(5.5);  //round off the number to smaller number like 5.5 to 5
 math.ceil(5.5);   //round off the number to larger number like 5.5 to 6
-math.random();    //gives random values but never gives 1 because 1 is exclusive
+math.random();    //gives random values
+
+
+// practice Qs
+//Q-1 generate random number between 1 and 100.
+math.floor(math.random()*100);

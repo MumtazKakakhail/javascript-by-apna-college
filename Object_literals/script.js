@@ -57,3 +57,30 @@ const classInfo = {
 };
 
 classInfo.mumtaz;
+
+classInfo.shams.city;
+
+classInfo.faiz.grade = "C";
+
+//Array of objects
+
+let stdInfo = [
+    {
+        name: "shahab",
+        marks: 92,
+        city: "gilgit"
+    },
+    {
+        name: "kamran",
+        marks: 85,
+        city: "islamabad"
+    },
+    {
+        name: "raza",
+        marks: 88,
+        city: "peshawar"
+    }
+];
+
+
+//math objects

@@ -22,7 +22,10 @@ post.likes;
 
 
 const student = {
-name: "Ali",
-age: 21,
-marks: 97.2
-}
+name: "yasir",
+age: 22,
+marks: 91.2,
+city: "gilgit"
+};
+
+student.city = "gahkuch";

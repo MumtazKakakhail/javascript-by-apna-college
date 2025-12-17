@@ -28,4 +28,32 @@ marks: 91.2,
 city: "gilgit"
 };
 
+//update value
 student.city = "gahkuch";
+
+//add new value
+student.gender = "male";
+
+student.marks = "A";
+
+//delete
+delete student.marks;
+
+//nested or object of objects
+
+const classInfo = {
+    mumtaz: {
+        grade: "A+",
+        city: "gahkuch"
+    },
+    shams: {
+        grade: "A",
+        city: "gilgit"
+    },
+    faiz: {
+        grade: "B",
+        city: "lahore"
+    }
+};
+
+classInfo.mumtaz;

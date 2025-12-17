@@ -1,19 +1,22 @@
-const max = prompt("enter the max number");
-
+const max = prompt("Enter the max number");
 const random = Math.floor(Math.random() * max) + 1;
 
-let guess = prompt("guess the number");
+let guess = prompt("Guess the number");
 
 while (true) {
-    if (guess == "quit") {
-        console.log("user quit");
+    if (guess === "quit") {
+        console.log("User quit");
         break;
+    }
 
-    } if (guess == random) {
+    if (guess == random) {
         console.log("You are right! Congrats!!");
         break;
-
-    } else {
-        prompt("your guess was wrong, please try again")
+    } 
+    else if (guess < random) {
+        guess = prompt("Hint: your guess was too small. Please try again.");
+    } 
+    else {
+        guess = prompt("Hint: your guess was too large. Please try again.");
     }
 }

@@ -39,6 +39,6 @@ function sum(a, b) {
     console.log(a + b);
 
 }
-sum(1, 7);
+sum(3, 7);
 sum(11, 13);
 sum(13, 26);

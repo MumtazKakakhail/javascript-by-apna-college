@@ -22,5 +22,3 @@ var letters = 'abc';
 cpnsole.log(letters.match(/a/));
 
 
-
-

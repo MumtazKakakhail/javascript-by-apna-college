@@ -14,7 +14,6 @@ try {
 } catch (err) {
   console.log("Error pakra gaya: " + err.message);
 }
-
 console.log("Program abhi bhi chal raha hai.");
 
 

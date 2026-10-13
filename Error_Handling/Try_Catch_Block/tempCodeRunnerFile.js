@@ -5,7 +5,6 @@ try {
   // Agar error aaye to yeh code chalega
   console.log("Error pakra gaya: " + err.message);
 }
-
 console.log("Mera program rukta nahi.");
 
 
